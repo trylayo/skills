@@ -1,0 +1,32 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "layo",
+  "version": "0.1.0",
+  "description": "Design AI influencers and make short videos starring them with Layo. Includes the Layo skill and the Layo MCP server.",
+  "author": { "name": "Layo", "url": "https://layo.co" },
+  "homepage": "https://docs.layo.co",
+  "repository": "https://github.com/trylayo/skills",
+  "license": "MIT",
+  "keywords": ["layo", "ai-influencer", "video", "ugc", "mcp"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Layo",
+        "shortDescription": "AI influencers and the videos they star in",
+        "longDescription": "Design an AI influencer once, then star them in short videos. Check prices before spending credits, create influencers and videos, and follow each one until it's finished.",
+        "developerName": "Layo",
+        "category": "Design",
+        "capabilities": ["Read", "Write"],
+        "websiteURL": "https://layo.co",
+        "privacyPolicyURL": "https://layo.co/privacy-policy",
+        "termsOfServiceURL": "https://layo.co/terms-of-use-agreement",
+        "defaultPrompt": [
+          "Show my Layo balance and influencers. Don't create anything yet.",
+          "Price a 5 second 480p video of my influencer waving at the camera."
+        ],
+        "composerIcon": "./assets/logo.png",
+        "logo": "./assets/logo.png"
+      }
+    }
+  }
+}

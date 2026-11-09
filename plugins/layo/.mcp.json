@@ -1,0 +1,5 @@
+{
+  "mcpServers": {
+    "layo": { "type": "http", "url": "https://layo.co/mcp" }
+  }
+}

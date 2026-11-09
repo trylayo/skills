@@ -1,0 +1,15 @@
+{
+  "name": "layo",
+  "owner": { "name": "Layo", "url": "https://layo.co" },
+  "metadata": { "description": "Layo's plugins for Claude Code", "version": "0.1.0" },
+  "plugins": [
+    {
+      "name": "layo",
+      "source": "./plugins/layo",
+      "description": "Design AI influencers and make short videos starring them with Layo. Includes the Layo skill and the Layo MCP server.",
+      "version": "0.1.0",
+      "category": "design",
+      "tags": ["layo", "ai-influencer", "video", "mcp"]
+    }
+  ]
+}
