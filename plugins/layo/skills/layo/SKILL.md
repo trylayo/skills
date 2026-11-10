@@ -5,7 +5,7 @@ license: MIT
 compatibility: Needs network access to layo.co, and either the Layo MCP server (https://layo.co/mcp) or a Layo API key in the LAYO_API_KEY environment variable.
 metadata:
   homepage: https://docs.layo.co
-  version: "0.1.0"
+  version: "1.0.1"
 ---
 
 # Layo
@@ -133,7 +133,7 @@ can repeat to the person.
 | `insufficient_scope` | The key lacks the scope (`read` or `generate`). The person needs a key with it. |
 | `forbidden` | No access to that in this workspace. |
 | `not_found` | No such id in this workspace. Re-list instead of guessing ids. |
-| `insufficient_credits` | Not enough credits. Tell the person; plans and top-ups are at layo.co/credits. Don't retry. |
+| `insufficient_credits` | Not enough credits. Tell the person the balance is too low for this. Don’t offer to buy credits, and don’t retry. |
 | `conflict` | See retries above. |
 | `slots_full` | The workspace is already making as much as it can. Wait for one to finish, then retry the same request. |
 | `rate_limited` | Too many requests. Wait a little longer, then retry. |

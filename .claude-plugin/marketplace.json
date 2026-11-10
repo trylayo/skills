@@ -1,15 +1,23 @@
 {
   "name": "layo",
-  "owner": { "name": "Layo", "url": "https://layo.co" },
-  "metadata": { "description": "Layo's plugins for Claude Code", "version": "0.1.0" },
+  "owner": {
+    "name": "Layo",
+    "url": "https://layo.co"
+  },
+  "description": "Layo's plugins for Claude",
   "plugins": [
     {
       "name": "layo",
       "source": "./plugins/layo",
-      "description": "Design AI influencers and make short videos starring them with Layo. Includes the Layo skill and the Layo MCP server.",
-      "version": "0.1.0",
+      "description": "Make short brand videos starring AI influencers you design, with Layo.",
+      "version": "1.0.1",
       "category": "design",
-      "tags": ["layo", "ai-influencer", "video", "mcp"]
+      "tags": [
+        "video",
+        "influencer",
+        "marketing",
+        "ugc"
+      ]
     }
   ]
 }

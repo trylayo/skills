@@ -1,8 +1,18 @@
 {
   "name": "layo",
-  "owner": { "name": "Layo" },
-  "metadata": { "description": "Layo's plugins for Cursor", "version": "0.1.0", "pluginRoot": "plugins" },
+  "owner": {
+    "name": "Layo"
+  },
+  "metadata": {
+    "description": "Layo's plugins for Cursor",
+    "version": "1.0.1",
+    "pluginRoot": "plugins"
+  },
   "plugins": [
-    { "name": "layo", "source": "layo", "description": "Design AI influencers and make short videos starring them with Layo. Includes the Layo skill and the Layo MCP server." }
+    {
+      "name": "layo",
+      "source": "layo",
+      "description": "Make short brand videos starring AI influencers you design, with Layo."
+    }
   ]
 }

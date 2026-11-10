@@ -1,22 +1,27 @@
 {
   "name": "layo",
-  "version": "0.1.0",
-  "description": "Design AI influencers and make short videos starring them with Layo. Includes the Layo skill and the Layo MCP server.",
+  "displayName": "Layo",
+  "version": "1.0.1",
+  "description": "Make short brand videos starring AI influencers you design, with Layo.",
   "author": {
-    "name": "Layo",
+    "name": "Manafold Inc.",
+    "email": "support@layo.co",
     "url": "https://layo.co"
   },
-  "homepage": "https://docs.layo.co",
+  "homepage": "https://layo.co",
   "repository": "https://github.com/trylayo/skills",
   "license": "MIT",
   "keywords": [
-    "layo",
-    "ai-influencer",
     "video",
-    "ugc",
-    "mcp"
+    "influencer",
+    "marketing",
+    "ugc"
   ],
+  "icon": "./assets/icon.png",
+  "documentationUrl": "https://docs.layo.co",
+  "supportUrl": "https://docs.layo.co",
+  "privacyPolicyUrl": "https://layo.co/privacy-policy",
+  "termsOfServiceUrl": "https://layo.co/terms-of-use-agreement",
   "skills": "./skills/",
-  "mcpServers": "./.mcp.json",
-  "privacyPolicyUrl": "https://layo.co/privacy-policy"
+  "mcpServers": "./.mcp.json"
 }

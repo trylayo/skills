@@ -1,11 +1,19 @@
 {
   "name": "layo",
-  "interface": { "displayName": "Layo" },
+  "interface": {
+    "displayName": "Layo"
+  },
   "plugins": [
     {
       "name": "layo",
-      "source": { "source": "local", "path": "./plugins/layo" },
-      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "source": {
+        "source": "local",
+        "path": "./plugins/layo"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
       "category": "Creativity"
     }
   ]
